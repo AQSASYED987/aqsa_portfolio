@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Dancing+Script:wght@400..700&family=Grey+Qo&display=swap');
+
+
+.about{
+    width:100%;
+    height:auto;
+    background-color:black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+
+
+.textDiv{
+    width:50%;
+    margin:auto;
+    padding-left:50px;
+    padding-right:30px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: wheat;
+    
+}
+
+
+.textDiv button{
+    
+    width: 160px;
+    height:36px;
+    text-align: right;
+    font-size: 18px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    padding:0 30px;
+    margin-top:30px;
+    background-color: #654321;
+    &:hover{
+        box-shadow: 0rem .5rem 1rem 0rem rgba(0,0,0,0.2);
+        font-weight: 500;
+        color:#6c584c;
+    }
+}
+
+.textDiv .font{
+    font-size: 20px;
+}
+
+.textDiv h1{
+    font-size: 4.125rem;
+    text-align: left;
+    color:wheat;
+    font-family: "Grey Qo", cursive;
+    font-weight:bold;
+    
+
+}
+
+.textDiv p{
+    margin-top:30px;
+    font-size: 25px;
+    text-align: left;
+    color:wheat;
+    
+}
+
+
+.imageDiv{
+    width:50%;
+    height:auto;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:50px;
+    
+
+}
+
+.img{
+    width:400px;
+    height:400px;
+    border-radius: 50%;
+    &:hover{
+        box-shadow: 0rem .5rem 1rem 0rem rgba(0,0,0,0.2);
+    }
+}
+
+ .bottomDiv{
+    width: 100%;
+    height: 120px;
+    background-color:#654321;
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+    padding-top:20px;
+    
+}
+
+@media (max-width: 768px) {
+    .about{
+        width:100%;
+        height: 750px;
+        background-color: black;
+        display:flex;
+        flex-direction: column;
+        padding-top: 350px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+.bottomDiv{
+    display:none;
+}
+   
+.textDiv{
+    width:100%;
+    margin:auto;
+    padding-left:0px;
+    padding-right:0px;
+    text-align: center;
+    margin-top:-250px;
+    
+}
+
+
+
+.textDiv .font{
+    font-size: 18px;
+}
+
+.textDiv h1{
+    font-size: 3rem;
+    text-align: center;
+       
+
+}
+
+.textDiv p{
+    margin-top:30px;
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+.bottomDiv{
+    margin-top: 0px;
+    
+}
+
+.imageDiv{
+    width:100%;
+    height:auto;
+    
+}
+
+.img{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    &:hover{
+        box-shadow: 0rem .5rem 1rem 0rem rgba(0,0,0,0.2);
+    }
+}
+
+    
+}    

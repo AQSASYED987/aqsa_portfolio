@@ -1,0 +1,13 @@
+.footer {
+    background-color:#654321 ;
+ 
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+.footer a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:wheat;
+    text-decoration: underline;
+}
